@@ -1,11 +1,12 @@
+import Page from './Components/Page';
 import Stages from './Components/Stages';
 
 function App() {
   return (
-    <div className='page-container'>
+    <Page>
       <h1 className='title'>Kanban Board</h1>
       <Stages />
-    </div>
+    </Page>
   );
 }
 
