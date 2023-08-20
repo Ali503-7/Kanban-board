@@ -1,13 +1,12 @@
-import './App.css'
+import Stages from './Components/Stages';
 
 function App() {
-
   return (
-    <>
-      test from Ali
-      test 
-    </>
-  )
+    <div className='page-container'>
+      <h1 className='title'>Kanban Board</h1>
+      <Stages />
+    </div>
+  );
 }
 
-export default App
+export default App;
