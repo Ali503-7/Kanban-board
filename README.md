@@ -4,9 +4,13 @@ Kanban Board bulided by react
 # What is Used in this project 
 
 .For icons: react-icons
+
 .For Styling: Styled Components
+
 .Local Storage: 
+
 .for animations:
+
 
 # Kalid TODO
 1. work on building the components with only HTML 
