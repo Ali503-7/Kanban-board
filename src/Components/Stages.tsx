@@ -1,11 +1,12 @@
-import Stage from './Stage';
+import Stage from "./Stage";
+import StyledStages from "../StyleComponents/Stages";
 
-export default function Stages() {
+export default function StagesComponent() {
   return (
-    <div className='stages'>
-      <Stage stageTitle='Not Started' />
-      <Stage stageTitle='In Progress' />
-      <Stage stageTitle='Completed' />
-    </div>
+    <StyledStages>
+      <Stage stageTitle="Not Started" />
+      <Stage stageTitle="In Progress" />
+      <Stage stageTitle="Completed" />
+    </StyledStages>
   );
 }

@@ -1,12 +1,14 @@
+import StyledStage from "../StyleComponents/StyledStage";
+
 interface PropsInterface {
   stageTitle: string;
 }
 
-export default function Stage({ stageTitle }: PropsInterface) {
+export default function StageComponent({ stageTitle }: PropsInterface) {
   return (
-    <div className='stage'>
-      <p className='stage-title'>{stageTitle}</p>
+    <StyledStage>
+      <p className="stage-title">{stageTitle}</p>
       <button>+</button>
-    </div>
+    </StyledStage>
   );
 }
