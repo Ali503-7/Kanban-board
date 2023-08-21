@@ -1,5 +1,4 @@
-import React from "react";
-import StyledPage from "../StyleComponents/Page";
+import StyledPage from '../StyleComponents/Page';
 
 interface PageProps {
   children: React.ReactNode; // Use React.ReactNode here
