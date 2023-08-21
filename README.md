@@ -1,9 +1,7 @@
-# Kanban-board
-Kanban Board bulided by react
+# Kansan-board
+Kansan Board by React
 
 # What is Used in this project 
-
-.For icons: react-icons
 
 .For Styling: Styled Components
 
@@ -12,7 +10,7 @@ Kanban Board bulided by react
 .for animations:
 
 
-# Kalid TODO
+# Khalid TODO
 1. work on building the components with only HTML 
 
 2. Look on how to drag and drop the items on any list just drag and prob no how to make the item get push into the wanted one (in a styled way or if there is any library that can offer that)
