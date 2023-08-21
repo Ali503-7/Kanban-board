@@ -18,7 +18,7 @@ Kansan Board by React
 # ALi TODO
 1. will work on Styling the Page
 
-3. gonna work adding know items to any of the three lists and remove them and edit it 
+2. gonna work adding know items to any of the three lists and remove them and edit it 
 
 # Must Both of us do a research on  
 
