@@ -1,4 +1,3 @@
-import React from "react";
 import StyledPage from "../StyleComponents/Page";
 import { StagesProps } from "../TS Types/Types";
 
