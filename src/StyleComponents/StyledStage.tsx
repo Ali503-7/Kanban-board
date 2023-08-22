@@ -1,11 +1,12 @@
 import styled from "styled-components";
-import { StagesProps } from "../TS Tyes/Tyes"; // Make sure the path is correct
+import { StagesProps } from "../TS Types/Types"; // Make sure the path is correct
 
 const StyledStage = styled.div<StagesProps>`
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   width: calc(80% / 3);
+  
   & button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #027e67;

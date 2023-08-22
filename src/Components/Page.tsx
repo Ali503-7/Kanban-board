@@ -1,11 +1,8 @@
 import React from "react";
 import StyledPage from "../StyleComponents/Page";
+import { StagesProps } from "../TS Types/Types";
 
-interface PageProps {
-  children: React.ReactNode; // Use React.ReactNode here
-}
-
-const Page: React.FC<PageProps> = ({ children }) => {
+const Page: React.FC<StagesProps> = ({ children }) => {
   return <StyledPage>{children}</StyledPage>;
 };
 

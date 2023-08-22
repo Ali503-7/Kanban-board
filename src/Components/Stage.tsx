@@ -1,13 +1,30 @@
 import StyledStage from "../StyleComponents/StyledStage";
+import { PropsInterface } from "../TS Types/Types";
+import ListOfTodo from "./ListOfTodo";
 
-interface PropsInterface {
-  stageTitle: string;
-}
+export default function StageComponent({
+  stageTitle,
+  notStarted,
+  setNotStarted,
+  inProgress,
+  setInProgress,
+  completed,
+  setCompleted,
+}: PropsInterface) {
+  
+  const PropsData: PropsInterface = {
+    notStarted,
+    setNotStarted,
+    inProgress,
+    setInProgress,
+    completed,
+    setCompleted,
+  };
 
-export default function StageComponent({ stageTitle }: PropsInterface) {
   return (
     <StyledStage>
-      <p className="stage-title">{stageTitle}</p>
+      <p>{stageTitle}</p>
+      <ListOfTodo PropsData={PropsData} />
       <button>+</button>
     </StyledStage>
   );
